@@ -14,7 +14,7 @@ class BasicTestCase(unittest.TestCase):
         """ Ensure '/' contains expected HTML. """
         tester = app.test_client(self)
         response = tester.get('/', content_type='html/text')
-        self.assertIn("<title>Flask Stock Visualizer</title>", response.data)
+        self.assertIn("<title>TAC</title>", response.data)
 
 
 if __name__ == '__main__':
