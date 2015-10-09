@@ -28,6 +28,10 @@ def splitjson():
     with open('ShortTicketSales.json') as data_file:
         data = json.load(data_file)
 
+    for row in data:
+        del row['perf_no']
+
+
     Allcities = []
     for row in data:
         print(row['city'])

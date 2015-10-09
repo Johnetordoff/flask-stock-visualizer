@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb7ff161-2586-4d84-a2fd-02ddbef5a936" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ShortTicketSales.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TicketSales.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/main.js" afterPath="$PROJECT_DIR$/static/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1314 Ruth Chris Dinner.json" afterPath="$PROJECT_DIR$/1314 Ruth Chris Dinner.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A 50th Finale.json" afterPath="$PROJECT_DIR$/A 50th Finale.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A Tribute to Jerome Robbins.json" afterPath="$PROJECT_DIR$/A Tribute to Jerome Robbins.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Carmina Burana w Stravinsky.json" afterPath="$PROJECT_DIR$/Carmina Burana w Stravinsky.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Curtain Pass Members.json" afterPath="$PROJECT_DIR$/Curtain Pass Members.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Director's Choice.json" afterPath="$PROJECT_DIR$/Director's Choice.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Don Quixote.json" afterPath="$PROJECT_DIR$/Don Quixote.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doubletree Nutcracker Tea.json" afterPath="$PROJECT_DIR$/Doubletree Nutcracker Tea.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fonte &amp; Forsythe.json" afterPath="$PROJECT_DIR$/Fonte &amp; Forsythe.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gift to the City.json" afterPath="$PROJECT_DIR$/Gift to the City.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jewels.json" afterPath="$PROJECT_DIR$/Jewels.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Keigwin, Fonte &amp; Forsythe.json" afterPath="$PROJECT_DIR$/Keigwin, Fonte &amp; Forsythe.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nutcracker Tea.json" afterPath="$PROJECT_DIR$/Nutcracker Tea.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Press Play.json" afterPath="$PROJECT_DIR$/Press Play.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prodigal Son.json" afterPath="$PROJECT_DIR$/Prodigal Son.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Serenade &amp; Other Dances.json" afterPath="$PROJECT_DIR$/Serenade &amp; Other Dances.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speed and Precision.json" afterPath="$PROJECT_DIR$/Speed and Precision.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strength and Longing.json" afterPath="$PROJECT_DIR$/Strength and Longing.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Swan Lake.json" afterPath="$PROJECT_DIR$/Swan Lake.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/The Nutcracker.json" afterPath="$PROJECT_DIR$/The Nutcracker.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock_scraper.py" afterPath="$PROJECT_DIR$/stock_scraper.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,14 +44,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="stock_scraper.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stock_scraper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stock_scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73783785">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state vertical-scroll-proportion="14.888889">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="The Nutcracker.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/The Nutcracker.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44594595">
+              <caret line="0" column="1351" selection-start-line="0" selection-start-column="1351" selection-end-line="0" selection-end-column="1351" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ticket Sales Short.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ticket Sales Short.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.5555556">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="The NutcrackercityGraph.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/The NutcrackercityGraph.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,16 +104,6 @@
               <folding>
                 <element signature="e#0#77#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="129" column="22" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -107,16 +143,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Speed and Precision.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Speed and Precision.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -452,20 +478,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/python-getting-started/hello/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/python-getting-started/hello/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="11" selection-start-line="8" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stock_scraper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -819,21 +831,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/The Nutcracker.json">
+    <entry file="file://$PROJECT_DIR$/The NutcrackercityGraph.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.02267">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ticket Sales Short.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5555556">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stock_scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73783785">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        <state vertical-scroll-proportion="14.888889">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The Nutcracker.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44594595">
+          <caret line="0" column="1351" selection-start-line="0" selection-start-column="1351" selection-end-line="0" selection-end-column="1351" />
+          <folding />
         </state>
       </provider>
     </entry>
