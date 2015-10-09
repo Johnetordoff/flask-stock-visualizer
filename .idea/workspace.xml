@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb7ff161-2586-4d84-a2fd-02ddbef5a936" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1314 Ruth Chris Dinner.json" afterPath="$PROJECT_DIR$/1314 Ruth Chris Dinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A 50th Finale.json" afterPath="$PROJECT_DIR$/A 50th Finale.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A Tribute to Jerome Robbins.json" afterPath="$PROJECT_DIR$/A Tribute to Jerome Robbins.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Carmina Burana w Stravinsky.json" afterPath="$PROJECT_DIR$/Carmina Burana w Stravinsky.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Curtain Pass Members.json" afterPath="$PROJECT_DIR$/Curtain Pass Members.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Director's Choice.json" afterPath="$PROJECT_DIR$/Director's Choice.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Don Quixote.json" afterPath="$PROJECT_DIR$/Don Quixote.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doubletree Nutcracker Tea.json" afterPath="$PROJECT_DIR$/Doubletree Nutcracker Tea.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fonte &amp; Forsythe.json" afterPath="$PROJECT_DIR$/Fonte &amp; Forsythe.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gift to the City.json" afterPath="$PROJECT_DIR$/Gift to the City.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jewels.json" afterPath="$PROJECT_DIR$/Jewels.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Keigwin, Fonte &amp; Forsythe.json" afterPath="$PROJECT_DIR$/Keigwin, Fonte &amp; Forsythe.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nutcracker Tea.json" afterPath="$PROJECT_DIR$/Nutcracker Tea.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Press Play.json" afterPath="$PROJECT_DIR$/Press Play.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prodigal Son.json" afterPath="$PROJECT_DIR$/Prodigal Son.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Serenade &amp; Other Dances.json" afterPath="$PROJECT_DIR$/Serenade &amp; Other Dances.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speed and Precision.json" afterPath="$PROJECT_DIR$/Speed and Precision.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strength and Longing.json" afterPath="$PROJECT_DIR$/Strength and Longing.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Swan Lake.json" afterPath="$PROJECT_DIR$/Swan Lake.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/The Nutcracker.json" afterPath="$PROJECT_DIR$/The Nutcracker.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock_scraper.py" afterPath="$PROJECT_DIR$/stock_scraper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/main.css" afterPath="$PROJECT_DIR$/static/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="flask-stock-visualizer.iws" />
@@ -56,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="The Nutcracker.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="The Nutcracker.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/The Nutcracker.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44594595">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="1351" selection-start-line="0" selection-start-column="1351" selection-end-line="0" selection-end-column="1351" />
               <folding />
             </state>
@@ -81,6 +61,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.73783785">
+              <caret line="110" column="15" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -108,16 +98,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/main.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,8 +111,8 @@
       <file leaf-file-name="pro.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+            <state vertical-scroll-proportion="-2.0784314">
+              <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -141,8 +121,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state vertical-scroll-proportion="-2.6666667">
+              <caret line="31" column="67" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -168,14 +148,14 @@
         <option value="$PROJECT_DIR$/static/require.js" />
         <option value="$PROJECT_DIR$/name.txt" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/static/main.css" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/templates/pro.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/static/main.js" />
         <option value="$PROJECT_DIR$/TicketSales.json" />
         <option value="$PROJECT_DIR$/ShortTicketSales.json" />
         <option value="$PROJECT_DIR$/stock_scraper.py" />
+        <option value="$PROJECT_DIR$/templates/pro.html" />
+        <option value="$PROJECT_DIR$/static/main.css" />
       </list>
     </option>
   </component>
@@ -226,6 +206,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="flask-stock-visualizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flask-stock-visualizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flask-stock-visualizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flask-stock-visualizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flask-stock-visualizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -766,14 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="129" column="22" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -789,22 +789,6 @@
           <folding>
             <element signature="e#0#77#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -859,8 +843,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/The Nutcracker.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44594595">
+        <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="1351" selection-start-line="0" selection-start-column="1351" selection-end-line="0" selection-end-column="1351" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0784314">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73783785">
+          <caret line="110" column="15" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
           <folding />
         </state>
       </provider>
