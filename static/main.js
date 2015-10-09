@@ -222,14 +222,17 @@ function change(){
     var e = document.getElementById("selectPro");
     var strUser = e.options[e.selectedIndex].value;
     document.getElementById("superTitle").innerHTML = "The Analytics of <br>" + strUser;
+    console.log("made")
     $.getJSON($SCRIPT_ROOT + '/pref', {
         name: strUser,
       }, function(data) {
         var data = data['data'];
         loadGraphs(data);
     });
+    console.log("done")
 
 }
+
 
 function changePro(){
 
