@@ -94,11 +94,6 @@ def splitjson():
         for row in rows:
             del row['city']
 
-        for row in rows[1:]:
-            del row['perf_dt']
-
-        print(y)
-
         with open( y+'.json', 'w') as f:
             json.dump(rows, f)
 
