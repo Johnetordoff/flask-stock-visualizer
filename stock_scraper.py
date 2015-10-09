@@ -88,10 +88,8 @@ def splitjson():
         cityGraphData = sorted(cityGraphData, key=itemgetter('pur'))
         cityGraphData.reverse()
 
-
-        print(cityGraphData)
         with open( y+'cityGraph.json', 'w') as f:
-            json.dump(cityGraphData, f)
+            json.dump(cityGraphData[:10], f)
 
         for row in rows:
             del row['city']
