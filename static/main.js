@@ -91,7 +91,7 @@ function loadGraphs(data){
     var noPhilCities = cities;
     var noPhilTicks = tickets;
     var PhilTicks = tickets[0];
-    document.getElementById("Phillybtn").innerHTML = "Excluding Philadelphia with  " + PhilTicks + " tickets";
+    document.getElementById("Phillybtn").innerHTML = "Excluding  the " + PhilTicks + " tickets purchased in Philadelphia";
 
     noPhilCities[0] = 'x';
     noPhilTicks[0] = 'purchases';
