@@ -55,7 +55,7 @@ function loadGraphs(data){
         },
         axis: {
             x: {
-                label: 'Days Until Preformance'
+                label: 'Days Until Performance'
             },
 //            y: {
   //              show: true,

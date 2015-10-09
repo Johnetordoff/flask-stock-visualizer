@@ -5,7 +5,7 @@ from operator import itemgetter
 
 def get_data():
     fieldnames =[]
-    with open('TicketSales.csv', 'rb') as csvfile:
+    with open('ShortTicketSales .csv', 'rb') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             for value, key in row.iteritems():
@@ -25,12 +25,16 @@ def get_data():
     jsonf.close()
 
 def splitjson():
-    with open('csvtojson.json') as data_file:
+    with open('ShortTicketSales.json') as data_file:
         data = json.load(data_file)
 
     Allcities = []
     for row in data:
-        Allcities.append(row['city'].lower().capitalize())
+        print(row['city'])
+        try:
+            Allcities.append(str(row['city']).lower().capitalize())
+        except:
+            pass
     cities = set(Allcities)
 
     proNames = [
