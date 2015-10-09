@@ -16,7 +16,6 @@ function loadGraphs(data){
        }
        document.getElementById("daysUntil").innerHTML = data['daysuntil'];
 
-//      data = selectPro(name,data);
       var POS = CountPOS(data);
 
       var pie = c3.generate({

@@ -73,9 +73,6 @@ def splitjson():
             if x['perf_desc'] == y:
                 rows.append(x)
 
-        with open( y+'.json', 'w') as f:
-            json.dump(rows, f)
-
         cities = set(Allcities)
         cityGraphData = []
 
@@ -90,9 +87,18 @@ def splitjson():
 
         cityGraphData = sorted(cityGraphData, key=itemgetter('pur'))
         cityGraphData.reverse()
+
+
         print(cityGraphData)
         with open( y+'cityGraph.json', 'w') as f:
             json.dump(cityGraphData, f)
+
+        for row in rows:
+            del row['city']
+
+        with open( y+'.json', 'w') as f:
+            json.dump(rows, f)
+
 
 
 splitjson()
