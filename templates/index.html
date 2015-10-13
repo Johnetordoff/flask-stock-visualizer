@@ -13,11 +13,8 @@
         <link href={{ url_for('static', filename='main.css') }} rel="stylesheet" media="screen">
     </head>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        Welcome!
+                    <img width="100%" height="400px" src="static/dance-02.png">
 
-    </nav>
-    </nav>
     <div class="jumbotron text-center">
         <h3>The Philadelphia Ballet has provided records of their ticket sales</h3>
         <h3>See how the audience responds to different performances</h3>
@@ -29,9 +26,10 @@
         <br>
 
 
-        <input type="submit" class="btn-primary btn flat btn-lg" href="#" onclick="changePro()" value="Let's Start with Don Quixote">
-
+        <input type="submit" class="btn-primary btn btn-lg" href="#" onclick="changePro()" value="Let's Start with Don Quixote">
+</div>
     </div>
+
     <script src={{ url_for('static', filename='./bower_components/jquery/dist/jquery.min.js') }}></script>
     <script src={{ url_for('static', filename='./bower_components/bootstrap/dist/js/bootstrap.min.js') }}></script>
     <script src={{ url_for('static', filename='./bower_components/d3/d3.min.js') }}></script>

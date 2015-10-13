@@ -11,8 +11,9 @@ function loadGraphs(data){
       if(diffDays>0){
         data['daysuntil'] = Math.abs(Math.round(diffDays)) + " days until showtime."
        } else{
-        var str = data[0]['perf_dt'] +""
-        data['daysuntil'] = "Performed on " + str.substring(0, str.length - 23);
+        var str = data[0]['perf_dt'] +"";
+        str = str.substring(0, str.length - 23)
+        data['daysuntil'] = "Performed on " + str;
        }
        document.getElementById("daysUntil").innerHTML = data['daysuntil'];
 
@@ -228,6 +229,7 @@ function change(){
       }, function(data) {
         var data = data['data'];
         loadGraphs(data);
+
     });
     console.log("done")
 

@@ -3,6 +3,42 @@ import sys
 import json
 from operator import itemgetter
 
+def countUniValues():
+
+    with open('csvtojson.json') as data_file:
+        data = json.load(data_file)
+
+    tickets = 0
+    rows = []
+    customers = []
+    for row in data:
+        if row['mos_desc'] == "2":
+            rows.append(row)
+            customers.append(row['customer_no'])
+        tickets += int(row['num_seats'])
+
+    customers = list(set(customers))
+
+    repeatCustomers = 0
+    for customer in customers:
+        print(str(customers.index(customer)) + " " + str(len(customers)))
+        if 1 < len([x for x in data if x['customer_no'] == customer]):
+            repeatCustomers += 1
+
+
+    print(repeatCustomers)
+    #2519 repeat call customers
+    #4682 repeat web customers
+    #7830 repeat customers
+    #3878 box office customers
+    #5981 call customers
+    #21507 web customers
+    #30773 total customers
+    #63688 total purchases
+    #166434 ticket
+countUniValues()
+
+
 def get_data():
     fieldnames =[]
     with open('ShortTicketSales .csv', 'rb') as csvfile:
@@ -99,4 +135,3 @@ def splitjson():
 
 
 
-splitjson()

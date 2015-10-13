@@ -36,6 +36,10 @@ def index():
 def rend():
 
     return render_template("pro.html")
+@app.route("/mos")
+def mos():
+
+    return render_template("mos.html")
 
 
 if __name__ == '__main__':

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+        <link href="static/bower_components/c3/c3.css" rel="stylesheet" type="text/css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="static/bower_components/c3/c3.css" rel="stylesheet" type="text/css">
+        <script src="static/bower_components/d3/d3.min.js" charset="utf-8"></script>
+        <script src="static/bower_components/c3/c3.min.js"></script>
+        <script type=text/javascript>
+          $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+        </script>
+        <link href={{ url_for('static', filename='./bower_components/bootstrap/dist/css/bootstrap.min.css') }} rel="stylesheet"media="screen">
+        <link href={{ url_for('static', filename='main.css') }} rel="stylesheet" media="screen">
+
+    <meta charset="UTF-8">
+</head>
+    <title>Method of Sale</title>
+<body>
+    <div class="minitron text-center"><h3>In the provided dataset</h3>
+    <h4>166,434 tickets</h4>
+    <h4>63,688 total purchases</h4>
+        <h4>30,773 total customers</h4>
+        <h4>7830 repeat customers</h4>
+</h4></div>
+    <table width="100%" >
+        <tr>
+            <td>
+                <div class="call text-center">
+                    <table width="100%" height="100%">
+                        <tr>
+                            <p>Call Center</p>
+                            <img src="static/callCenter.png" height="200px" width="200px">
+                            <hr>
+                        </tr>
+                        <tr>
+                            <h3> repeat call center customers</h3>
+                        </tr>
+                </table>
+                </div>
+            </td>
+            <td>
+                <div class="web text-center">
+                    <table width="100%" height="100%">
+                        <tr>
+                            <p>Web</p>
+                            <img src="static/callCenter.png" height="200px" width="200px">
+                            <hr>
+                        </tr>
+                        <tr>
+                            <h3>4,682 repeat web customers</h3>
+                        </tr>
+                </table>
+                </div>
+            </td>
+            <td>
+                <div class="box text-center">
+                    <table width="100%" height="100%">
+                        <tr>
+                            <p>Box Office</p>
+                            <img src="static/callCenter.png" height="200px" width="200px">
+                            <hr>
+                        </tr>
+                        <tr>
+                            <h3>5,981 repeat call center customers</h3>
+                        </tr>
+                </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script src={{ url_for('static', filename='./bower_components/jquery/dist/jquery.min.js') }}></script>
+    <script src={{ url_for('static', filename='./bower_components/bootstrap/dist/js/bootstrap.min.js') }}></script>
+    <script src={{ url_for('static', filename='./bower_components/d3/d3.min.js') }}></script>
+    <script src={{ url_for('static', filename='main.js') }}></script>
+
+</body>
+</html>
