@@ -129,6 +129,7 @@ function loadGraphs(data){
 
       });
 
+    chartPhilly.data.colors({"Philadelphia": 'blue',"Else where": "#FFFFFF"});
 
     var bar = c3.generate({
     bindto: "#bar",
@@ -339,11 +340,10 @@ function loadGraphsMos(){
 
       });
 
-    setTimeout(function () {
+
         boxPie.data.colors({"Repeat Customers": '#FFFFFF',"One Time Customers": 'darkblue'});
         webPie.data.colors({"Repeat Customers": '#FFFFFF',"One Time Customers": 'darkgreen'});
         callPie.data.colors({"Repeat Customers": '#FFFFFF',"One Time Customers": '#990000'});
-    }, 1000);
 };
 
 loadGraphsMos()
