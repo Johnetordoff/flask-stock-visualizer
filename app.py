@@ -23,8 +23,11 @@ def pref():
         data = json.load(data_file)
     with open(name+"cityGraph.json") as data_file:
         cityGraph = json.load(data_file)
+    with open("description.json") as data_file:
+        description = json.load(data_file)
 
     data[0] = cityGraph
+    data[1] = description
 
     return jsonify({"data":data})
 
@@ -34,8 +37,8 @@ def index():
 
 @app.route("/rend")
 def rend():
-
     return render_template("pro.html")
+
 @app.route("/mos")
 def mos():
 

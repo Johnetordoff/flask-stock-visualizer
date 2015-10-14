@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<div>
+<>
     <head>
 
         <title>Philadelphia Ballet Analytics Challenge</title>
@@ -18,6 +18,8 @@
         <link href={{ url_for(
         'static', filename='main.css') }} rel="stylesheet" media="screen">
     </head>
+    <body>
+
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <select class="form-control selectbox" id="selectPro">
@@ -28,69 +30,93 @@
             <option>Serenade & Other Dances</option>
             <option>Prodigal Son</option>
             <option>Press Play</option>
-            <option>Nutcracker Tea</option>
-            <option>Keigwin, Fonte & Forsythe</option>
             <option>Jewels</option>
             <option>Gift to the City</option>
             <option>Fonte & Forsythe</option>
-            <option>Doubletree Nutcracker Tea</option>
             <option selected>Don Quixote</option>
             <option>Director's Choice</option>
             <option>Carmina Burana w Stravinsky</option>
             <option>A Tribute to Jerome Robbins</option>
             <option>A Program of "Firsts"</option>
             <option>A 50th Finale</option>
-            <option>1314 Ruth Chris Dinner</option>
-            <option>Gift to the City(Reserve)</option>
         </select>
         <input type="submit" href="#" onclick="change()" value="Switch performance">
     </nav>
-    </nav>
-    <div class="jumbotron text-center">
+        <div class="jumbotron text-center">
+        <img src="static/lights.png">
+        <img src="static/lights.png">
+        <img src="static/lights.png">
         <h1>The Philadelphia Ballet</h1>
-
         <h2>and Temple University</h2>
-
         <h3><i>presents</i></h3>
-
         <h1 id="superTitle"></h1>
         <h4><i>An Audience in Three Graphs</i></h4>
-    </div>
-    <div class="container">
-        <h3>When?</h3>
-        <h5>Number of tickets sold over time</h5>
-        <h4 id="daysUntil"></h4>
-        <hr>
+        </div>
+                <div class="container">
+                    <h2>What?</h2>
+                    <hr class="hr2">
+                    <h3 id="description"></h3>
 
-        <div id="chart"></div>
-    </div>
-    <div class="container">
-        <h3> How?</h3>
-        <h5>Method of Sale</h5>
-        <hr>
-        <div id="pie"></div>
-        <br>
-        <a type="button" id="mosbtn" class="btn btn-sm pull-right btn-primary" href="mos">More info about method of sale</a>
-        <br>
-        <hr>
-    </div>
-    <div class="container">
-        <h3> Where?</h3></span>
-        <h5>Ten cities with the largest purchases and Philadelphia</h5>
+                </div>
+                <div class="container">
+                    <h2>When?</h2>
+                    <h4>Number of tickets sold over time</h4>
+                    <hr class="hr2">
+                    <div id="chart"></div>
+                    <h4 id="daysUntil"></h4>
 
-        <div id="bar"></div>
-        <br>
-        <a type="button" id="Phillybtn" class="btn btn-sm pull-right btn-primary disabled" href="#">exclude Philadephia</a>
-        <br>
-        <hr>
-    </div>
+               </div>
+                <h2> How?</h2>
+                <hr class="hr2">
+    <table>
+        <td>
+            <div class="container">
+                <h5>Method of Sale</h5>
+                <div id="pie"></div>
+                <br>
+                <br>
+            </div>
+        </td>
+        <td>
+        <h3>Total number of tickets sold<br></h3>
+            <hr class="hr3">
+            <h2 id="totalTickets"></h2>
+        <h3>Average number of tickets per purchase <br></h3>
+            <hr class="hr3">
+            <h2 id="seatsPer"></h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a type="button" id="mosbtn" class="btn btn-lg btn-primary" href="mos">More info about method of sale</a>
+        </td>
+    </table>
+    <h2> Where?</h2>
+    <hr class="hr2">
+    <table>
+        <td>
+            <div class="container">
+                <h3> Top Suburban Cities</h3>
+                <hr class="hr3">
+                <h4 type="button" id="Phillybtn" >exclude Philadephia</h4>
+                <div id="bar"></div>
+            </div>
+        </td>
+        <td>
+            <div class="container">
+                <h3> Percentage from Philly</h3>
+                <hr class="hr3">
+                <div id="chartPhilly"></div>
+            </div>
+        </td>
+    </table>
     <div class="container">
-        <h3> Who?</h3><br>
-
+        <h2> Who?</h2>
+        <hr>
         <h3><b>Potentially You!</b></h3>
     </div>
-    <div class="container1 one" href="https://www.paballet.org/current-season">
 
+    <div class="container1 one" href="https://www.paballet.org/current-season">
         <div class="bk l">
             <div class="arrow top"></div>
             <div class="arrow bottom"></div>
@@ -110,6 +136,9 @@
         </div>
 
     </div>
+
+        </body>
+
 </div>
 <script src={{ url_for('static', filename='./bower_components/jquery/dist/jquery.min.js') }}></script>
     <script src={{ url_for('static', filename='./bower_components/bootstrap/dist/js/bootstrap.min.js') }}></script>

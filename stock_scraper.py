@@ -8,27 +8,47 @@ def countUniValues():
     with open('csvtojson.json') as data_file:
         data = json.load(data_file)
 
-    tickets = 0
     rows = []
     customers = []
     for row in data:
-        if row['mos_desc'] == "2":
+        if row['mos_desc'] == "TP Box Office":
             rows.append(row)
             customers.append(row['customer_no'])
-        tickets += int(row['num_seats'])
+
 
     customers = list(set(customers))
 
-    repeatCustomers = 0
+    repeatCustomers = []
     for customer in customers:
         print(str(customers.index(customer)) + " " + str(len(customers)))
-        if 1 < len([x for x in data if x['customer_no'] == customer]):
-            repeatCustomers += 1
+        if 1 == len([x for x in data if x['customer_no'] == customer]):
+            repeatCustomers.append(customer)
 
 
-    print(repeatCustomers)
+    tickets = 0
+    for row in rows:
+        if row['customer_no'] in repeatCustomers:
+            tickets += int(row['num_seats'])
+
+
+
+    print len(repeatCustomers)
+    print tickets
+
+
+    print(float(tickets)/len(repeatCustomers))
+    #10.19 tickets per repeat
+    #2408 non-repeat box office
+    #1470 repeat box office customers
+
+    #4.225 repeat
+    #2.789 non-repeat
     #2519 repeat call customers
+    #3462 non-repeat call customers
+
     #4682 repeat web customers
+    #16825 non-repeat web
+
     #7830 repeat customers
     #3878 box office customers
     #5981 call customers
@@ -59,6 +79,9 @@ def get_data():
     jsonf.write(data)
     f.close()
     jsonf.close()
+
+
+
 
 def splitjson():
     with open('ShortTicketSales.json') as data_file:

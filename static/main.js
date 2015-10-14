@@ -4,6 +4,18 @@ function loadGraphs(data){
 
       var cityGraph = data[0];
       data.shift();
+      var desc = data[0];
+      data.shift();
+
+        var tickets = 0;
+        for(var i = 0; i < cityGraph.length;i++){
+            tickets += cityGraph[i]["pur"];
+        }
+
+        document.getElementById("description").innerHTML = desc[0][data[0]['perf_desc']];
+        document.getElementById("seatsPer").innerHTML = (data.length/tickets).toFixed(4) + "<br>";
+        document.getElementById("totalTickets").innerHTML = tickets + "<br>";
+
 
       data = fixdates(data);
       oneDay = 24*60*60*1000;
@@ -93,9 +105,31 @@ function loadGraphs(data){
     var PhilTicks = tickets[0];
     document.getElementById("Phillybtn").innerHTML = "Excluding  the " + PhilTicks + " tickets purchased in Philadelphia";
 
+
+    var myTotal = 0;
+    for(var i = 1, len = noPhilTicks.length; i < len; i++) {
+        myTotal += noPhilTicks[i];  // Iterate over your first array and then grab the second element add the values up
+    }
+
     noPhilCities[0] = 'x';
     noPhilTicks[0] = 'purchases';
     var colorScale = d3.scale.category10();
+
+    var chartPhilly = c3.generate({
+          bindto: '#chartPhilly',
+          data: {
+              columns: [
+                  ['Philadelphia', PhilTicks],
+                  ['Else where', myTotal],
+              ],
+              type : 'pie'
+          },
+              tooltip : {show : false},
+
+
+      });
+
+
     var bar = c3.generate({
     bindto: "#bar",
     data: {
@@ -113,7 +147,9 @@ function loadGraphs(data){
       }
 
       return inColor;
-    },    },
+    }    },
+
+    tooltip : {show : true},
 
     axis: {
         x: {
@@ -247,9 +283,67 @@ $(document).ready(function(){
     change();
 
 })
+$("mos.html").ready(function(){
+    loadGraphsMos();
+
+})
 
 $('div.main').click(function(e)
 {
     window.location = "https://www.paballet.org/upcoming-programs";
     });
 
+$('a.mosbtn').click(function(e)
+{
+    loadGraphsMos();
+    });
+
+
+function loadGraphsMos(){
+    var colorScale = d3.scale.category10();
+
+      var callPie = c3.generate({
+          bindto: '#callPie',
+          data: {
+              columns: [
+                ["Repeat Customers", 2519],
+                ["One Time Customers", 3462]
+              ],
+              type : 'pie',
+        },
+              tooltip : {show : false},
+      });
+
+      var webPie = c3.generate({
+          bindto: '#webPie',
+          data: {
+              columns: [
+                ["Repeat Customers", 4682],
+                ["One Time Customers", 16825]
+              ],
+              type : 'pie',
+          },
+              tooltip : {show : false},
+
+      });
+      var boxPie = c3.generate({
+          bindto: '#boxPie',
+          data: {
+              columns: [
+                ["Repeat Customers", 1470],
+                ["One Time Customers", 2408]
+              ],
+              type : 'pie',
+          },
+              tooltip : {show : false},
+
+      });
+
+    setTimeout(function () {
+        boxPie.data.colors({"Repeat Customers": '#FFFFFF',"One Time Customers": 'darkblue'});
+        webPie.data.colors({"Repeat Customers": '#FFFFFF',"One Time Customers": 'darkgreen'});
+        callPie.data.colors({"Repeat Customers": '#FFFFFF',"One Time Customers": '#990000'});
+    }, 1000);
+};
+
+loadGraphsMos()
