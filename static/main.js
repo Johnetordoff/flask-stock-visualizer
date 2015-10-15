@@ -129,7 +129,7 @@ function loadGraphs(data){
 
       });
 
-    chartPhilly.data.colors({"Philadelphia": 'blue',"Else where": "#FFFFFF"});
+    chartPhilly.data.colors({"Philadelphia": 'green',"Else where": "red"});
 
     var bar = c3.generate({
     bindto: "#bar",
