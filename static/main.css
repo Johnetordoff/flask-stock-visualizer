@@ -34,6 +34,12 @@ body {
     padding-bottom: 80px
 }
 
+.ticket{
+    height: 120px;
+    width: 300px;
+
+}
+
 .minitron {
     padding-bottom : 80px;
     padding-top : 80px;
