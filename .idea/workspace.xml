@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb7ff161-2586-4d84-a2fd-02ddbef5a936" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/main.css" afterPath="$PROJECT_DIR$/static/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pro.html" afterPath="$PROJECT_DIR$/templates/pro.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/mos.html" afterPath="$PROJECT_DIR$/templates/mos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="flask-stock-visualizer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mos.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mos.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/mos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.4509804">
-              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.9481865">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pro.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pro.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.92391306">
-              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            <state vertical-scroll-proportion="6.1764708">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -150,9 +150,9 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/description.json" />
         <option value="$PROJECT_DIR$/static/main.js" />
-        <option value="$PROJECT_DIR$/templates/mos.html" />
         <option value="$PROJECT_DIR$/static/main.css" />
         <option value="$PROJECT_DIR$/templates/pro.html" />
+        <option value="$PROJECT_DIR$/templates/mos.html" />
       </list>
     </option>
   </component>
@@ -194,30 +194,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="flask-stock-visualizer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flask-stock-visualizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flask-stock-visualizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flask-stock-visualizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flask-stock-visualizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -825,14 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.4509804">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.483871">
@@ -843,8 +811,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pro.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92391306">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        <state vertical-scroll-proportion="6.1764708">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9481865">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>
