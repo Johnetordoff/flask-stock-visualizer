@@ -1,29 +1,21 @@
 <!DOCTYPE html>
-<>
-    <head>
-
-        <title>Philadelphia Ballet Analytics Challenge</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="static/bower_components/c3/c3.css" rel="stylesheet" type="text/css">
-        <script src="static/bower_components/d3/d3.min.js" charset="utf-8"></script>
-        <script src="static/bower_components/c3/c3.min.js"></script>
-        <script type=text/javascript>
-  $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
-
-
-        </script>
-        <link href={{ url_for(
-        'static', filename='./bower_components/bootstrap/dist/css/bootstrap.min.css') }} rel="stylesheet"
-        media="screen">
-        <link href={{ url_for(
+<head>
+    <title>Philadelphia Ballet Analytics Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bower_components/c3/c3.css" rel="stylesheet" type="text/css">
+    <script src="static/bower_components/d3/d3.min.js" charset="utf-8"></script>
+    <script src="static/bower_components/c3/c3.min.js"></script>
+    <script type=text/javascript> $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};</script>
+    <link href={{ url_for(
+        'static', filename='./bower_components/bootstrap/dist/css/bootstrap.min.css') }} rel="stylesheet media="screen">
+    <link href={{ url_for(
         'static', filename='main.css') }} rel="stylesheet" media="screen">
-    </head>
-    <body>
-
+</head>
+<body>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <select class="form-control selectbox" id="selectPro">
-            <option >Swan Lake</option>
+            <option>Swan Lake</option>
             <option>The Nutcracker</option>
             <option>Strength and Longing</option>
             <option>Speed and Precision</option>
@@ -42,32 +34,32 @@
         </select>
         <input type="submit" href="#" onclick="change()" value="Switch performance">
     </nav>
-        <div class="jumbotron text-center">
+    <div class="jumbotron text-center">
         <img src="static/lights.png">
         <img src="static/lights.png">
+
         <h1>The Philadelphia Ballet</h1>
+
         <h3><i>presents</i></h3>
+
         <h1 id="superTitle"></h1>
         <h4><i>An Audience in Four Graphs</i></h4>
-        </div>
-                <div class="container">
-                    <h2>What?</h2>
-                    <h4>A description of the performance.</h4>
-
-                    <hr class="hr2">
-                    <h3 id="description"></h3>
-
-                </div>
-                <div class="container">
-                    <h2>When?</h2>
-                    <h4>Number of tickets sold over time</h4>
-                    <hr class="hr2">
-                    <div id="chart"></div>
-                    <h4 id="daysUntil"></h4>
-
-               </div>
-                <h2> How?</h2>
-                <hr class="hr2">
+    </div>
+    <div class="container">
+        <h2>What?</h2>
+        <h4>A description of the performance.</h4>
+        <hr class="hr2">
+        <h3 id="description"></h3>
+    </div>
+    <div class="container">
+        <h2>When?</h2>
+        <h4>Number of tickets sold over time</h4>
+        <hr class="hr2">
+        <div id="chart"></div>
+        <h4 id="daysUntil"></h4>
+    </div>
+    <h2> How?</h2>
+    <hr class="hr2">
     <table>
         <td>
             <div class="container">
@@ -78,10 +70,10 @@
             </div>
         </td>
         <td>
-        <h3>Total number of tickets sold<br></h3>
+            <h3>Total number of tickets sold<br></h3>
             <hr class="hr3">
             <h2 id="totalTickets"></h2>
-        <h3>Average number of tickets per purchase <br></h3>
+            <h3>Average number of tickets per purchase <br></h3>
             <hr class="hr3">
             <h2 id="seatsPer"></h2>
             <br>
@@ -94,7 +86,7 @@
         <td>
             <div class="container">
                 <h3> Top Suburban Cities</h3>
-                <h4 type="button" id="Phillybtn" >exclude Philadephia</h4>
+                <h4 type="button" id="Phillybtn">exclude Philadephia</h4>
                 <hr class="hr2">
                 <div id="bar"></div>
             </div>
@@ -118,28 +110,21 @@
             <div class="arrow top"></div>
             <div class="arrow bottom"></div>
         </div>
-
         <div class="skew l"></div>
-
         <div class="main">
             <div href="https://www.paballet.org/current-season">Learn More About the 2016 Season</div>
         </div>
-
         <div class="skew r"></div>
-
         <div class="bk r">
             <div class="arrow top"></div>
             <div class="arrow bottom"></div>
         </div>
-
     </div>
-
-        </body>
-
-</div>
-<script src={{ url_for('static', filename='./bower_components/jquery/dist/jquery.min.js') }}></script>
-    <script src={{ url_for('static', filename='./bower_components/bootstrap/dist/js/bootstrap.min.js') }}></script>
-<script src={{ url_for('static', filename='./bower_components/d3/d3.min.js') }}></script>
-    <script src={{ url_for('static', filename='main.js') }}></script>
 </body>
+
+<script src={{ url_for('static', filename='./bower_components/jquery/dist/jquery.min.js') }}></script>
+<script src={{ url_for('static', filename='./bower_components/bootstrap/dist/js/bootstrap.min.js') }}></script>
+<script src={{ url_for('static', filename='./bower_components/d3/d3.min.js') }}></script>
+<script src={{ url_for('static', filename='main.js') }}></script>
+
 </html>

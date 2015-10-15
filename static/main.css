@@ -7,36 +7,23 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   overflow-x: hidden;
   padding-top: 40px;
-
 }
 
+.page {}
 
-.page {
-}
+.c3 .c3-axis-x path, .c3 .c3-axis-x line { stroke: ivory; }
 
-.c3 .c3-axis-x path, .c3 .c3-axis-x line {
-    stroke: ivory;
-}
-.c3 .c3-axis-y path, .c3 .c3-axis-y line {
-    stroke: ivory;
-}
+.c3 .c3-axis-y path, .c3 .c3-axis-y line { stroke: ivory; }
 
-.c3-axis-x-label {
-    fill: ivory;
-}
+.c3-axis-x-label { fill: ivory; }
 
-.c3-axis c3-axis-y {
- fill: ivory;
-}
-.c3-axis c3-axis-x, tick {
- fill: ivory;
-}
-.tick{
- fill: ivory;
-}
-.c3 line{
- stroke: ivory;
-}
+.c3-axis c3-axis-y { fill: ivory; }
+
+.c3-axis c3-axis-x, tick { fill: ivory; }
+
+.tick{ fill: ivory; }
+
+.c3 line{ stroke: ivory; }
 
 .c3-legend-item text { fill: white;}
 
@@ -46,36 +33,34 @@ body {
     color: ivory;
     padding-bottom: 80px
 }
+
 .minitron {
     padding-bottom : 80px;
     padding-top : 80px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     background: black;
     color: ivory;
-
 }
 
-
-hr{
+hr {
 	border-top: 1px dashed #FFFFFF;
 	border-bottom: 1px dashed #FFFFFF;
-        box-shadow: inset 0 -1px 0 0 #FFFFFF, inset 0 1px 0 0 #FFFFFF, 0 1px 0 0 #FFFFFF, 0 -1px 0 0 #FFFFFF;
+    box-shadow: inset 0 -1px 0 0 #FFFFFF, inset 0 1px 0 0 #FFFFFF, 0 1px 0 0 #FFFFFF, 0 -1px 0 0 #FFFFFF;
 	margin-bottom: 1px;
-
 }
-.hr2
-{
+
+.hr2 {
 	border-top: 1px dashed #FFFFFF;
 	border-bottom: 1px dashed #FFFFFF;
-        box-shadow: inset 0 -1px 0 0 #FFFFFF, inset 0 1px 0 0 #FFFFFF, 0 1px 0 0 #FFFFFF, 0 -1px 0 0 #FFFFFF;
+    box-shadow: inset 0 -1px 0 0 #FFFFFF, inset 0 1px 0 0 #FFFFFF, 0 1px 0 0 #FFFFFF, 0 -1px 0 0 #FFFFFF;
 	margin-bottom: 1px;
     width: 80%;
 }
-.hr3
-{
+
+.hr3 {
 	border-top: 1px dashed #FFFFFF;
 	border-bottom: 1px dashed #FFFFFF;
-        box-shadow: inset 0 -1px 0 0 #FFFFFF, inset 0 1px 0 0 #FFFFFF, 0 1px 0 0 #FFFFFF, 0 -1px 0 0 #FFFFFF;
+    box-shadow: inset 0 -1px 0 0 #FFFFFF, inset 0 1px 0 0 #FFFFFF, 0 1px 0 0 #FFFFFF, 0 -1px 0 0 #FFFFFF;
 	margin-bottom: 1px;
     width: 40%;
 }
@@ -84,6 +69,7 @@ hr{
     background: #845ac7;
     border-color: #d9ccee
 }
+
 .btn-primary {
     background: #d9ccee
 	border: 5px solid #FFFFFF;
@@ -94,16 +80,16 @@ hr{
 }
 .jumbotron p {
     color: #d9ccee;
-    margin: 1em auto 2em
+    margin: 1em auto 2em;
 }
+
 .navbar+.jumbotron {
     margin-top: -20px
 }
-}
+
 .jumbotron .lang-logo img {
     max-width: 100%
 }
-
 
 .selectbox{
     width: 20%;
@@ -111,7 +97,6 @@ hr{
     border:3px solid #845ac7;
     padding: 0px;
     text-align: center;
-
 }
 
 .main{
@@ -133,6 +118,7 @@ h3{
     font-family: Baskerville,Georgia,serif;
     font-style: italic;
 }
+
 h2{
     text-align: center;
     margin: auto;
@@ -144,7 +130,8 @@ h2{
     font-family: Baskerville,Georgia,serif;
     font-style: italic;
 }
-h4{
+
+h4 {
     text-align: center;
     margin: auto;
     color: ivory;
@@ -152,7 +139,8 @@ h4{
     font-family: Baskerville,Georgia,serif;
     font-style: italic;
 }
-h5{
+
+h5 {
     text-align: center;
     margin: auto;
     color: ivory;
@@ -166,7 +154,6 @@ h5{
     position: fixed;
     top: 0;
 }
-
 
 .navbar {
     background-color: black;
@@ -184,79 +171,82 @@ h5{
 }
 
 .container1 {
-  width: 80%;
-  max-width: 1000px;
-  height: 80px;
-  margin: 40px auto;
-  position: relative;
+    width: 80%;
+    max-width: 1000px;
+    height: 80px;
+    margin: 40px auto;
+    position: relative;
 }
+
 .container {
-  width: 90%;
-  margin: 40px auto;
-  position: relative;
+    width: 90%;
+    margin: 40px auto;
+    position: relative;
 }
 
 .one > div {
-  height: 50px;
+    height: 50px;
 }
 
 .main {
-  background: #000000;
-  position: relative;
-  display: block;
-  width: 90%;
-  left: 50%;
-  top: 0;
-  cursor: pointer;
-  padding: 5px;
-  margin-left: -45%;
-  z-index: 10;
+    background: #000000;
+    position: relative;
+    display: block;
+    width: 90%;
+    left: 50%;
+    top: 0;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: -45%;
+    z-index: 10;
 }
 
 .call{
- color: ivory;
- background: #990000;
+    color: ivory;
+    background: #990000;
 }
 
 .box{
- color: ivory;
- background: darkblue;
+    color: ivory;
+    background: darkblue;
 }
-.web
-{
- color: ivory;
- background: darkgreen;
 
+.web{
+    color: ivory;
+    background: darkgreen;
 }
 
 table{
     width: 100%;
     table-layout: fixed;
 }
+
 .c3-tooltip-container{
     width: 150px;
     table-layout: relative;
 }
 
 td{
-	border-right: 1px dashed #FFFFFF;
-	border-left: 1px dashed #FFFFFF;
-        box-shadow: inset 0 -1px 0 0 #FFFFFF, inset 0 1px 0 0 #FFFFFF, 0 1px 0 0 #FFFFFF, 0 -1px 0 0 #FFFFFF;
+  	border-right: 1px dashed #FFFFFF;
+  	border-left: 1px dashed #FFFFFF;
+    box-shadow: inset 0 -1px 0 0 #FFFFFF, inset 0 1px 0 0 #FFFFFF, 0 1px 0 0 #FFFFFF, 0 -1px 0 0 #FFFFFF;
     text-align: center;
 }
 
 .overContainer {
-    width: 50%;
-    margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
   height: 120px;
   width: 300px;
   position: relative;
 }
+
 .overImage {
   position: absolute;
   left: 0;
   top: 0;
 }
+
 .overText {
   z-index: 100;
   position: absolute;
@@ -274,52 +264,52 @@ td{
 }
 
 .bk {
-   background: #000000;
- position: absolute;
- width: 8%;
- top: 12px;
+    background: #000000;
+    position: absolute;
+    width: 8%;
+    top: 12px;
 }
 
 .bk.l {
- left: 0;
+    left: 0;
 }
 
 .bk.r {
- right: 0;
+    right: 0;
 }
 
 .skew {
-  position: absolute;
-  background: #FFFFFF;
-  width: 3%;
-  top: 6px;
-  z-index: 5;
+    position: absolute;
+    background: #FFFFFF;
+    width: 3%;
+    top: 6px;
+    z-index: 5;
 }
 
 .skew.l {
-  left: 5%;
-  transform: skew(00deg,20deg);
+    left: 5%;
+    transform: skew(00deg,20deg);
 }
 
 .skew.r {
-  right: 5%;
-  transform: skew(00deg,-20deg);
+    right: 5%;
+    transform: skew(00deg,-20deg);
 }
 
 .bk.l > div {
-  left: -30px;
+    left: -30px;
 }
 
 .bk.r > div {
-  right: -30px;
+    right: -30px;
 }
 
 .arrow {
   height: 25px !important;
   position: absolute;
   z-index: 2;
-    width: 0;
-    height: 0;
+  width: 0;
+  height: 0;
 }
 
 .arrow.top {
