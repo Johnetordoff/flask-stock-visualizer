@@ -9,34 +9,30 @@ def countUniValues():
         data = json.load(data_file)
 
     rows = []
-    customers = []
+    ticketTypes = []
     for row in data:
-        if row['mos_desc'] == "TP Box Office":
-            rows.append(row)
-            customers.append(row['customer_no'])
+        if row['mos_desc'] == "TP Web":
+            ticketTypes.append(row['price_type_desc'])
 
-
-    customers = list(set(customers))
-
-    repeatCustomers = []
-    for customer in customers:
-        print(str(customers.index(customer)) + " " + str(len(customers)))
-        if 1 == len([x for x in data if x['customer_no'] == customer]):
-            repeatCustomers.append(customer)
-
+    ticketTypes = list(set(ticketTypes))
 
     tickets = 0
-    for row in rows:
-        if row['customer_no'] in repeatCustomers:
-            tickets += int(row['num_seats'])
+    for row in data:
+        if row['mos_desc'] == "TP Call Center" and float(row['tot_due_amt'])  > 200:
+            tickets += 1
+    print(tickets)
+    tickets = 0
+    for row in data:
+        if row['mos_desc'] == "TP Web" and float(row['tot_due_amt'])  > 200:
+            tickets += 1
+    print(tickets)
+    tickets = 0
+    for row in data:
+        if row['mos_desc'] == "TP Box Office" and float(row['tot_due_amt']) < 200 and float(row['tot_due_amt']) > 100:
+            tickets += 1
+    print(tickets)
 
 
-
-    print len(repeatCustomers)
-    print tickets
-
-
-    print(float(tickets)/len(repeatCustomers))
     #10.19 tickets per repeat
     #2408 non-repeat box office
     #1470 repeat box office customers

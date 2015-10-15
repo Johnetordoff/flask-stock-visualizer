@@ -312,7 +312,20 @@ function loadGraphsMos(){
               ],
               type : 'pie',
         },
-              tooltip : {show : false},
+      });
+      var callTypesPie = c3.generate({
+          bindto: '#callTypesPie',
+          data: {
+              columns: [
+                ["< $20" ,118],
+                ["< $50" ,425],
+                ["< $100" ,984],
+                ["< $200" ,2217],
+                ["> $200" ,2113],
+              ],
+              type : 'pie',
+
+        },
       });
 
       var webPie = c3.generate({
@@ -324,7 +337,21 @@ function loadGraphsMos(){
               ],
               type : 'pie',
           },
-              tooltip : {show : false},
+
+      });
+      var webTypesPie = c3.generate({
+          bindto: '#webTypesPie',
+          data: {
+              columns: [
+                ["< $20" ,7],
+                ["< $50" ,996],
+                ["< $100" ,4534],
+                ["< $200" ,11242],
+                ["> $200" ,11271],
+
+                ],
+              type : 'pie',
+                  },
 
       });
       var boxPie = c3.generate({
@@ -336,8 +363,20 @@ function loadGraphsMos(){
               ],
               type : 'pie',
           },
-              tooltip : {show : false},
 
+      });
+      var boxTypesPie = c3.generate({
+          bindto: '#boxTypesPie',
+          data: {
+              columns: [
+                ["< $20" ,598],
+                ["< $50" ,913],
+                ["< $100" ,1013],
+                ["< $200" ,1008],
+                ["> $200" ,559],
+                ],
+              type : 'pie',
+                  },
       });
 
 
