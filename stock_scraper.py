@@ -52,8 +52,11 @@ def countUniValues():
     #30773 total customers
     #63688 total purchases
     #166434 ticket
-countUniValues()
 
+def calc():
+
+    print 4682*6.053 - 4682*2.658
+calc()
 
 def get_data():
     fieldnames =[]

@@ -291,7 +291,7 @@ $("mos.html").ready(function(){
 
 $('div.main').click(function(e)
 {
-    window.location = "https://www.paballet.org/upcoming-programs";
+    window.location = "breaking";
     });
 
 $('a.mosbtn').click(function(e)

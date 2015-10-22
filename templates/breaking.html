@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html>
+<style type="text/css">
+    -webkit-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+    -moz-text-size-adjust:none;
+    text-size-adjust:none;
+</style>
 <head lang="en">
+        <link href="static/bower_components/c3/c3.css" rel="stylesheet" type="text/css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="static/bower_components/c3/c3.css" rel="stylesheet" type="text/css">
+        <script src="static/bower_components/d3/d3.min.js" charset="utf-8"></script>
+        <script src="static/bower_components/c3/c3.min.js"></script>
+        <script type=text/javascript>
+          $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+        </script>
+        <link href={{ url_for('static', filename='./bower_components/bootstrap/dist/css/bootstrap.min.css') }} rel="stylesheet"media="screen">
+        <link href={{ url_for('static', filename='main.css') }} rel="stylesheet" media="screen">
+
     <meta charset="UTF-8">
-    <title></title>
 </head>
 <body>
-
+    <table class="stealthTable">
+        <tr height="200px">
+            <td></td>  <td rowspan="4" width="50%">               <img width="100%" class="picpage" src="static/thing.png"></td><td></td>
+        </tr>
+        <tr height="20%">
+            <td></td>  <td><h2>80.2%</h2><hr class="hr2"><h3>Average number of tickets from Philadelphia, with such a concentrated audience geography is not very telling.</h3></td>
+        </tr>
+        <tr height="300px">
+            <td><h2>15,895</h2> <hr class="hr2"> <h3>The amount of additional tickets being sold if there were the same repeat customers as the other sale methods.</h3> </td>  <td></td>
+        </tr>
+        <tr height="300px">
+            <td></td>  <td> ><h2>10.19</h2> <hr class="hr2"><h3> The mean number of tickets repeat box office buyers purchase</h3> </td>
+        </tr>
+    </table>
+    <div class="jumbotron">
+        <h1> Solution</h1>
+        <hr class="hr2">
+        <h2> A web presence that can retain an audience with the same personal experience they find through other methods.</h2>
+        <h1> But how?!</h1>
+        <h2> Through web  design as elegant and refined as the Pennsylvania Ballet itself.</h2>
+    </div>
 </body>
 </html>

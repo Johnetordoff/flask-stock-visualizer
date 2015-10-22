@@ -41,8 +41,11 @@ def rend():
 
 @app.route("/mos")
 def mos():
-
     return render_template("mos.html")
+
+@app.route("/breaking")
+def breaking():
+    return render_template("breaking.html")
 
 
 if __name__ == '__main__':

@@ -9,6 +9,12 @@ body {
   padding-top: 40px;
 }
 
+.picpage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
 .page {}
 
 .c3 .c3-axis-x path, .c3 .c3-axis-x line { stroke: ivory; }
@@ -26,6 +32,20 @@ body {
 .c3 line{ stroke: ivory; }
 
 .c3-legend-item text { fill: white;}
+
+.jumbotron h1 {
+    text-align: center;
+    margin: auto;
+    color: ivory;
+    font-size: 124px;
+    padding-top: 40px;
+    top-margin: 40px;
+    bottom-margin: 40px;
+    font-family: Baskerville,Georgia,serif;
+    font-style: italic;
+}
+
+
 
 .jumbotron {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -138,6 +158,17 @@ h2{
     font-family: Baskerville,Georgia,serif;
     font-style: italic;
 }
+h1 {
+    text-align: center;
+    margin: auto;
+    color: ivory;
+    font-size: 124px;
+    padding-top: 40px;
+    top-margin: 40px;
+    bottom-margin: 40px;
+    font-family: Baskerville,Georgia,serif;
+    font-style: italic;
+}
 
 h4 {
     text-align: center;
@@ -225,9 +256,17 @@ h5 {
 }
 
 table{
+
     width: 100%;
     table-layout: fixed;
 }
+
+.stealthTable td{
+  	border-right: none;
+  	border-left: none;
+    box-shadow: none;
+	vertical-align: top;
+	}
 
 .c3-tooltip-container{
     width: 150px;
